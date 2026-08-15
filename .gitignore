@@ -1,0 +1,82 @@
+# ============================================================
+#  DADOS PESSOAIS — NUNCA VERSIONAR
+#  Rosto é dado biométrico sensível (LGPD art. 5º, II) e os
+#  titulares são menores de idade (LGPD art. 14).
+#  Nada disto pode sair da máquina local.
+# ============================================================
+
+# Fotos de cadastro e capturas da câmera
+dados/
+fotos/
+faces/
+capturas/
+enrollment/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.mp4
+*.avi
+
+# Embeddings faciais (vetores derivados do rosto — ainda são dado pessoal)
+*.npy
+*.npz
+*.pkl
+*.pickle
+embeddings/
+modelos_faciais/
+
+# Banco de dados com registros de presença de pessoas reais
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.xlsx
+backups/
+
+# Termos de consentimento assinados e documentos de identificação
+consentimentos/
+termos-assinados/
+
+# Exceções: material do projeto que PODE ser versionado
+!docs/**/*.png
+!docs/**/*.jpg
+!**/exemplo_*.csv
+!**/template_*.csv
+
+# ============================================================
+#  Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ============================================================
+#  Ambiente e segredos
+# ============================================================
+.env
+.env.*
+!.env.example
+config.local.*
+*.key
+*.pem
+
+# ============================================================
+#  Sistema e editores
+# ============================================================
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+~$*
