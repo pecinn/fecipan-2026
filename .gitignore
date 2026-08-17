@@ -41,6 +41,8 @@ termos-assinados/
 # Exceções: material do projeto que PODE ser versionado
 !docs/**/*.png
 !docs/**/*.jpg
+# Figuras dos resumos expandidos — diagramas, não fotografias
+!projeto-*/figura-*.png
 !**/exemplo_*.csv
 !**/template_*.csv
 
