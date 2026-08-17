@@ -1,14 +1,24 @@
-# ClassMonitor — FECIPAN 2026
+# FECIPAN 2026
 
-Protótipo de sistema de chamada escolar automatizada por reconhecimento facial, desenvolvido para a **Feira de Ciência e Tecnologia do Pantanal em Corumbá (FECIPAN)**, IFMS Campus Corumbá, 08 e 09 de outubro de 2026.
+Projetos da **E. E. Júlia Gonçalves Passarinho** (Corumbá/MS) para a **Feira de Ciência e Tecnologia do Pantanal em Corumbá (FECIPAN)**, IFMS Campus Corumbá, 08 e 09 de outubro de 2026.
 
-**E. E. Júlia Gonçalves Passarinho** — Corumbá/MS · Itinerário Profissional de Informática / Ciência de Dados
-
-O projeto foi **3º colocado na FETEC/MS 2025** como proposta. Esta é a etapa de construção do protótipo funcional.
+Itinerário Profissional de Informática / Ciência de Dados · Edital nº 056/2026 – PROPI/IFMS
 
 ---
 
-## Como funciona
+## Projetos
+
+| Projeto | Do que se trata |
+|---|---|
+| **ClassMonitor** | Chamada escolar automatizada por reconhecimento facial. 3º colocado na FETEC/MS 2025 como proposta; esta é a etapa do protótipo funcional |
+| [**Berrante**](projeto-berrante/) | Coleira sensora no gado detecta queimada e alerta a sede da fazenda — o rebanho como rede de sensores móveis |
+| [**Cordilheira**](projeto-cordilheira/) | Página web de prevenção a queimadas no Pantanal, com quiz pré e pós-uso medindo o ganho de aprendizagem |
+| [**Elo**](projeto-elo/) | Aplicativo que integra rotinas em uma base única, para que a IA opere sobre os dados cruzados entre áreas |
+| [**Vozes do Pantanal**](projeto-vozes-do-pantanal/) | Memória local e práticas de linguagem, nível Fundamental |
+
+Cada pasta traz o resumo expandido em markdown, `.docx` e `.pdf`, além da figura do resumo.
+
+## ClassMonitor: como funciona
 
 Uma câmera observa a sala, identifica os estudantes presentes e registra a frequência automaticamente em um banco de dados, com painel de acompanhamento para a gestão escolar — atrasos, saídas e relatórios de assiduidade.
 
@@ -31,12 +41,13 @@ Ver [`CLAUDE.md`](CLAUDE.md) para o detalhamento das restrições de LGPD e do i
 | [`00-edital/`](00-edital/) | Edital 056/2026 destrinchado: regras, prazos, critérios, formatação do resumo |
 | [`01-ideias/`](01-ideias/) | Concepção, escopo e decisões de projeto |
 | [`02-resumos/`](02-resumos/) | Resumo expandido, banner e relatório |
+| `projeto-*/` | Uma pasta por projeto, com o resumo expandido e o material da banca |
 
 ## Trabalhando em outra máquina
 
 ```bash
-git clone https://github.com/pecinn/fecipan-classmonitor.git
-cd fecipan-classmonitor
+git clone https://github.com/pecinn/fecipan-2026.git
+cd fecipan-2026
 ```
 
 O arquivo `CLAUDE.md` carrega todo o contexto automaticamente ao abrir o Claude Code na pasta.
