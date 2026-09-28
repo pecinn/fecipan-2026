@@ -26,7 +26,7 @@ PROJETO CORDILHEIRA: SOFTWARE EDUCACIONAL PARA PREVENÇÃO DE QUEIMADAS NO PANTA
 
 ## Introdução
 
-O Pantanal, maior planície alagável do planeta, vem sofrendo perdas sucessivas por incêndios florestais. Em 2020, a área queimada no bioma foi **376% superior à média registrada entre 2003 e 2019** (GARCIA et al., 2021), no episódio descrito como o maior desastre por fogo já observado na região (LIBONATI et al., 2020). Pletsch et al. (2021) associam o evento à combinação entre a maior seca em sessenta anos e a fragilização das políticas ambientais. Corumbá, município onde este trabalho foi desenvolvido, está inserida na área atingida.
+O Pantanal, maior planície alagável do planeta, vem sofrendo perdas sucessivas por incêndios florestais, cuja série histórica de focos é monitorada por satélite pelo Programa Queimadas (INSTITUTO NACIONAL DE PESQUISAS ESPACIAIS, 2026). Em 2020, a área queimada no bioma foi **376% superior à média registrada entre 2003 e 2019** (GARCIA et al., 2021), no episódio descrito como o maior desastre por fogo já observado na região (LIBONATI et al., 2020). Pletsch et al. (2021) associam o evento à combinação entre a maior seca em sessenta anos e a fragilização das políticas ambientais. Corumbá, município onde este trabalho foi desenvolvido, está inserida na área atingida.
 
 O dado que orienta esta pesquisa é a origem do fogo: os incêndios no Pantanal estão associados a atividades humanas e ao manejo inadequado do fogo, e não a causas naturais (GARCIA et al., 2021). Se a causa é o comportamento humano, a educação deixa de ser apenas conscientização e passa a ser **uma tecnologia de prevenção**, tal como prevê a Política Nacional de Educação Ambiental ao definir a educação ambiental como componente essencial e permanente da educação nacional (BRASIL, 1999). Soma-se a isso o fato de que o tempo entre o início de um foco e o acionamento do Corpo de Bombeiros é determinante para que ele não se torne incontrolável: quanto mais cedo o alerta, menor a área queimada.
 
@@ -54,9 +54,9 @@ A pesquisa é de natureza aplicada, com abordagem quantitativa e delineamento pr
 
 Fonte: Próprio Autor (2026)
 
-**Etapa 3 — Aplicação.** O software foi aplicado a **30 estudantes de 8 a 11 anos**, matriculados nos anos iniciais do Ensino Fundamental, em [nome da escola], em [mês] de 2026. Cada sessão teve duração aproximada de **25 minutos** por participante, incluindo pré-teste, interação com os módulos e pós-teste.
+**Etapa 3 — Aplicação.** O software foi aplicado a **30 estudantes de 11 e 12 anos**, matriculados nos anos iniciais do Ensino Fundamental, em [nome da escola], em [mês] de 2026. Cada sessão teve duração aproximada de **25 minutos** por participante, incluindo pré-teste, interação com os módulos e pós-teste.
 
-**Etapa 4 — Análise.** Comparou-se o percentual de acerto no pré-teste e no pós-teste, no total e questão a questão, calculando-se o ganho absoluto de aprendizagem. Nenhum nome, imagem ou dado pessoal foi coletado ou armazenado, e os resultados são tratados exclusivamente de forma agregada.
+**Etapa 4 — Análise.** Comparou-se o percentual de acerto no pré-teste e no pós-teste, no total e questão a questão, calculando-se o ganho absoluto de aprendizagem. Nenhum nome, imagem ou dado pessoal foi coletado ou armazenado, e os resultados são tratados exclusivamente de forma agregada, em conformidade com a Resolução nº 510/2016 do Conselho Nacional de Saúde (BRASIL, 2016).
 
 ## Resultados e Análise
 
@@ -105,13 +105,13 @@ Como continuidade, propõe-se a aplicação com grupo de controle, a reaplicaç�
 
 **CORDILHEIRA PROJECT: EDUCATIONAL SOFTWARE FOR WILDFIRE PREVENTION IN THE PANTANAL WITH AUTOMATED LEARNING MEASUREMENT**
 
-*Abstract:* Wildfires in the Pantanal are associated with human activity, and the time elapsed between ignition and the emergency call to the fire brigade is decisive for the extent of the burned area. This study develops and evaluates an educational software application, web-based and able to run offline, addressing wildfire prevention in the Pantanal biome. Its distinctive feature is that the system itself measures learning: each participant answers a 10-item questionnaire before and after using the application, identified only by an anonymous code, and the software computes the gain in correct answers for each content area. The application was tested with 30 children aged 8 to 11 in Corumbá, Brazil. Results are reported by content area, including those in which the software failed to produce a relevant gain.
+*Abstract:* Wildfires in the Pantanal are associated with human activity, and the time elapsed between ignition and the emergency call to the fire brigade is decisive for the extent of the burned area. This study develops and evaluates an educational software application, web-based and able to run offline, addressing wildfire prevention in the Pantanal biome. Its distinctive feature is that the system itself measures learning: each participant answers a 10-item questionnaire before and after using the application, identified only by an anonymous code, and the software computes the gain in correct answers for each content area. The application was tested with 30 children aged 11 and 12 in Corumbá, Brazil. Results are reported by content area, including those in which the software failed to produce a relevant gain.
 
 *Keywords:* environmental education, wildfires, Pantanal
 
 **PROYECTO CORDILLERA: SOFTWARE EDUCATIVO PARA LA PREVENCIÓN DE INCENDIOS EN EL PANTANAL CON MEDICIÓN AUTOMATIZADA DEL APRENDIZAJE**
 
-*Resumen:* Los incendios del Pantanal están asociados a la actividad humana, y el tiempo transcurrido hasta el aviso al Cuerpo de Bomberos determina la extensión del área quemada. Este trabajo desarrolla y evalúa un software educativo, de acceso web y funcionamiento sin conexión, sobre la prevención de incendios en el bioma pantanero. Su rasgo distintivo es que el propio sistema mide el aprendizaje: cada participante responde un cuestionario de 10 preguntas antes y después de usarlo, identificado únicamente por un código anónimo, y el software calcula la ganancia de aciertos por contenido. La aplicación se probó con 30 niños de 8 a 11 años en Corumbá, Brasil. Los resultados se presentan por contenido, incluidos aquellos en los que el software no produjo una ganancia relevante.
+*Resumen:* Los incendios del Pantanal están asociados a la actividad humana, y el tiempo transcurrido hasta el aviso al Cuerpo de Bomberos determina la extensión del área quemada. Este trabajo desarrolla y evalúa un software educativo, de acceso web y funcionamiento sin conexión, sobre la prevención de incendios en el bioma pantanero. Su rasgo distintivo es que el propio sistema mide el aprendizaje: cada participante responde un cuestionario de 10 preguntas antes y después de usarlo, identificado únicamente por un código anónimo, y el software calcula la ganancia de aciertos por contenido. La aplicación se probó con 30 niños de 11 y 12 años en Corumbá, Brasil. Los resultados se presentan por contenido, incluidos aquellos en los que el software no produjo una ganancia relevante.
 
 *Palabras clave:* educación ambiental, incendios, Pantanal
 
